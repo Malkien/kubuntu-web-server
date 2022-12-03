@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demokubuntu.web.WebApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-03T15:59:55" hostname="malki" time="0.349">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.demokubuntu.web.WebApplicationTests" time="0.349"/>
+  <system-out><![CDATA[16:59:54.159 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [WebApplicationTests]: using SpringBootContextLoader
+16:59:54.165 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.demokubuntu.web.WebApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:59:54.166 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.demokubuntu.web.WebApplicationTests]: WebApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:59:54.189 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [WebApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+16:59:54.262 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/malki/Documents/demoKubuntu/main/web/build/classes/java/main/com/demokubuntu/web/WebApplication.class]
+16:59:54.264 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.demokubuntu.web.WebApplication for test class com.demokubuntu.web.WebApplicationTests
+16:59:54.347 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+16:59:54.349 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+16:59:54.351 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [WebApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+16:59:54.353 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [WebApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.0)
+
+2022-12-03T16:59:54.627+01:00  INFO 22855 --- [    Test worker] c.demokubuntu.web.WebApplicationTests    : Starting WebApplicationTests using Java 17.0.5 with PID 22855 (started by malki in /home/malki/Documents/demoKubuntu/main/web)
+2022-12-03T16:59:54.629+01:00  INFO 22855 --- [    Test worker] c.demokubuntu.web.WebApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-03T16:59:55.648+01:00  INFO 22855 --- [    Test worker] c.demokubuntu.web.WebApplicationTests    : Started WebApplicationTests in 1.252 seconds (process running for 2.243)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
