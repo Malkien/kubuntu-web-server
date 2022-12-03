@@ -48,9 +48,9 @@ jobs:
       with:
         image: kevin1cuenca/web-repositories-versions
         context: ./web
-        file: Dockerfile
+        file: ./Dockerfile
         push: true
-        tags: web:latest
+        tags: kevin1cuenca/web-repositories-versions:latest
         
         
         
