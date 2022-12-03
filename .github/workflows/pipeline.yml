@@ -50,6 +50,7 @@ jobs:
         context: ./web
         file: Dockerfile
         push: true
+        tags: web:latest
         
         
         
