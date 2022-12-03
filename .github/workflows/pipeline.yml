@@ -47,7 +47,7 @@ jobs:
     - name: Docker Build and Push
       uses: docker/build-push-action@v3.2.0
       with:
-        context: .
+        context: ./web
         file: ./web/Dockerfile
         push: true
         tags: kevin1cuenca/web-repositories-versions:latest
